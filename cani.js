@@ -1,4 +1,3 @@
-
 const funzione = function() {
     document.querySelector("body").classList.toggle("menuopened");
 }
