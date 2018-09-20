@@ -16,12 +16,11 @@ p {
   font-size: 14px;
 }
 
-
 @media (min-width: 768px) {
-p {
-  font-family: "Open Sans Condensed", sans-serif;
-  font-size: 24px;
-}
+  p {
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 24px;
+  }
 }
 
 h3 {
@@ -30,7 +29,7 @@ h3 {
 }
 
 .sinistra {
-display: inline-block;
+  display: inline-block;
   margin-left: 4px;
   width: 30%;
 }
@@ -45,7 +44,7 @@ display: inline-block;
 .destra {
   display: inline-block;
   position: relative;
-    margin-right: 0px;
+  margin-right: 0px;
   width: 33%;
 }
 
@@ -152,24 +151,23 @@ display: inline-block;
   bottom: -1px;
   background: none;
   border: 0;
-
 }
 
 .buttonsearch {
   background: none;
   border: 0;
-
 }
 
 .searchopened .search {
-  margin-top: 58px;
-  margin-left: -65px;
+  margin-top: 50px;
+  margin-left: -29px;
   position: absolute;
   padding: 10px;
   display: inline;
+  background-color: white;
 }
 
-.menuopened .menu  {
+.menuopened .menu {
   margin-top: 10px;
   margin-left: 280px;
   width: 100px;
