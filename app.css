@@ -1,0 +1,16 @@
+#main {
+  color: black; }
+  #main-sidebar {
+    border: 1px solid; }
+  body.firefox #main {
+    line-height: 1.5em; }
+ 
+.content-navigation {
+  background-color: #b0b0b0; }
+
+.box {
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg); }
+
+/*# sourceMappingURL=app.css.map */

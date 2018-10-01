@@ -1,0 +1,22 @@
+#main {
+    color: black;
+    &-sidebar {
+        border: 1px solid;
+    }
+    body.firefox & {
+        line-height: 1.5em
+    }
+}
+
+$mainbackcolor: #b0b0b0;
+.content-navigation {
+  background-color:$mainbackcolor;
+}
+
+@mixin transform($property) {
+  -webkit-transform: $property;
+      -ms-transform: $property;
+          transform: $property;
+}
+
+.box { @include transform(rotate(30deg)); }

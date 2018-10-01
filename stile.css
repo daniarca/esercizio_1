@@ -187,3 +187,13 @@ h3 {
 .search {
   display: none;
 }
+
+.lebirre {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 1rem;
+  border: 1px solid gray;
+} 
